@@ -1,0 +1,153 @@
+:root {
+    --naranja-pollo: #FF8C00;
+    --amarillo-brillante: #FFD700;
+    --cafe-tostado: #4B2E1E;
+    --blanco-fondo: #FDFCF0;
+    --borde-liso: 15px;
+}
+
+body {
+    background-color: var(--blanco-fondo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--cafe-tostado);
+    margin: 0;
+    padding: 20px;
+}
+
+.admin-stock-box {
+    background-color: white;
+    border: 2px solid var(--naranja-pollo);
+    border-radius: var(--borde-liso);
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.admin-stock-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+    color: var(--cafe-tostado);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: var(--borde-liso);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border: 2px solid var(--amarillo-brillante);
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0; /* Evita que el logo se haga chiquito */
+}
+
+.logo-empresa {
+    width: 80px; /* Ajusta el tamaño de tu logo si es muy grande */
+    height: auto;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Empuja el logo a la izquierda y atajos a la derecha */
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap; /* Por si lo abres en pantallas pequeñas */
+}
+
+.atajos-ref {
+    /* Quitamos el float: right y usamos un ancho máximo para que no invada el logo */
+    float: none; 
+    max-width: 600px; 
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-size: 0.85em;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+    flex-grow: 1; /* Permite que crezca si hay espacio */
+}
+/* Tabla Didáctica */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 20px;
+}
+
+th {
+    background-color: var(--cafe-tostado);
+    color: rgb(3, 3, 3);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+td {
+    background-color: #fff9e6;
+    padding: 15px;
+    font-size: 1.1em;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+td:first-child { border-radius: 10px 0 0 10px; font-weight: bold; }
+td:last-child { border-radius: 0 10px 10px 0; }
+
+/* Botones Grandes y Persuasivos */
+.btn-primary {
+    background-color: var(--naranja-pollo);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: none;
+    border-radius: var(--borde-liso);
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
+}
+
+.btn-primary:hover {
+    background-color: #e67e00;
+    transform: scale(1.02);
+}
+
+.btn-secondary {
+    background-color: var(--cafe-tostado);
+    color: var(--amarillo-brillante);
+    padding: 15px 30px;
+    border-radius: var(--borde-liso);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Caja de Total Persuasiva */
+.total-box {
+    background: var(--amarillo-brillante);
+    padding: 20px;
+    border-radius: var(--borde-liso);
+    text-align: center;
+    margin-bottom: 20px;
+    border: 3px dashed var(--naranja-pollo);
+}
+
+.total-box h2 {
+    font-size: 3em;
+    margin: 0;
+    color: var(--cafe-tostado);
+}
+
+/* Modal Didáctico */
+.modal-content {
+    border: 5px solid var(--naranja-pollo);
+    border-radius: 20px;
+    padding: 40px;
+}
