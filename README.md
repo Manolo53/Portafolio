@@ -33,3 +33,11 @@ Axios y dotenv
 CUPS para impresión local opcional
 
 ![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/Interfaz-principal.png)
+
+![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/dashBoard.png)
+
+![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/dashBoard-tickets.png)
+
+![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/Catalogo-productos-dashboard.png)
+
+
