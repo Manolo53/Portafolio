@@ -38,8 +38,6 @@ Aplicación de punto de venta con interfaz web y una API local en Node.js. El pr
 7. Para la impresora, configura `PRINTER_NAME` con el nombre local que reconoce CUPS.
 8. Inicia el servidor con `npm start` y abre `http://localhost:3000`.
 
-No uses contraseñas, tokens, ventas ni datos personales reales en una demostración pública. El acceso PIN y algunas operaciones administrativas están pensados para el sistema original; antes de desplegar la aplicación en Internet se necesita revisar y fortalecer autenticación, permisos y protección de las rutas.
-
 ## Estructura
 
 ```text
@@ -56,13 +54,4 @@ frontend/
 .env.example            Plantilla de configuración local
 ```
 
-## Preparación para publicar en GitHub
 
-1. Revisa la pestaña **Changes** en GitHub Desktop o los archivos de la carpeta y confirma que `.env` no esté incluido. `.gitignore` lo excluye; `.env.example` solo tiene valores ficticios.
-2. Busca en todo el proyecto direcciones IP, URLs privadas, contraseñas, tokens, nombres/direcciones del negocio y datos de clientes o ventas. Asegúrate también de que `config.js` no contenga una URL privada.
-3. El ZIP recibido no incluye la carpeta `.git`, así que no fue posible revisar commits anteriores. Si el repositorio original tuvo contraseñas, tokens o direcciones privadas en commits, quitar esos valores de los archivos actuales no los elimina del historial. En ese caso no hagas público el repositorio hasta sanear el historial y reemplazar cualquier credencial comprometida.
-4. Confirma que tienes autorización para publicar el código del negocio y sus procesos. La copia no contiene el logotipo, pero la autorización del código sigue siendo necesaria.
-5. Comprueba la interfaz usando una base de datos ficticia y, si hace falta, agrega capturas sin información real.
-6. Sube primero esta copia a un repositorio privado nuevo o a una rama para revisarla. Cuando hayas comprobado archivos e historial, puedes cambiar la visibilidad en GitHub desde **Settings → Danger Zone → Change repository visibility → Public**. Lee con cuidado el aviso de GitHub antes de confirmar.
-
-No se ha realizado ningún cambio en GitHub.
