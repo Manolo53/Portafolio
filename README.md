@@ -31,3 +31,5 @@ JavaScript, HTML y CSS
 Axios y dotenv
 
 CUPS para impresión local opcional
+
+![Pantalla principal](Interfaz-principal.png)
