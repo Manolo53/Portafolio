@@ -32,4 +32,4 @@ Axios y dotenv
 
 CUPS para impresión local opcional
 
-![Pantalla principal](Interfaz-principal.png)
+![Pantalla principal](capturasSistema/Interfaz-principal.png)
