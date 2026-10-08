@@ -36,7 +36,7 @@ CUPS para impresión local opcional
 
 ![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/dashBoard.png)
 
-![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/dashBoard-tickets.png)
+![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/dashboard-tickets.png)
 
 ![Pantalla principal](sistemahornipollolocal-portfolio/capturasSistema/Catalogo-productos-dashboard.png)
 
